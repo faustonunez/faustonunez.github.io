@@ -1,0 +1,105 @@
+h1 {
+	font-family: 'Libre Baskerville', serif;
+	padding: 24px 0px 24px 0px;
+	font-size: 48px;
+	color: #DF5331;
+	margin: 0px;
+}
+
+
+h3 {
+	font-family: 'Libre Baskerville', serif;
+	padding: 24px 0px 0px 0px;
+	font-size: 24px;
+	color: #DF5331;
+	margin: 0px;
+	font-weight: 500;
+}
+
+h4 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	line-height: 32px;
+	color: #333;
+	font-weight: 500;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	line-height: 32px;
+	color: #333;
+	padding: 12px 0px 12px 0px;
+	margin: 0px;
+}
+
+
+article {
+	margin: 0px;
+}
+
+img {
+	padding: 48px 0px 00px 48px;
+}
+
+header {
+
+	text-align: right;
+	padding: 48px 48px 24px 0px;
+
+}
+
+section {
+	padding: 0px 0px 0px 350px;
+	width: 700px;
+}
+
+
+ul {
+	display: inline;
+	font-family: 'Libre Baskerville', serif;
+	list-style-type: none;
+}
+
+li {
+	display: inline;
+	padding: 0px 10px 0px 10px
+}
+
+a {
+	color: #DF5331;
+}
+
+.quote {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 24px;
+	line-height: 48px;
+	color: #999999;
+	padding: 24px 0px 24px 0px;
+}
+
+
+.left-cover {
+	height: 1000px;
+	width: 280px;
+	background-color: #333;
+	background-image: url("images/left-cover-photo.png");
+	background-position: center;
+	float: left;
+	margin-top: 0px;
+	position: fixed;
+}
+
+.p-gray {
+	color: #333;
+	padding: 6px 0px 0px 0px;
+	margin: 0px;
+}
+
+.p-resume {
+	color: #999999;
+	margin: 0px;
+	padding: 0px 0px 24px 0px 
+}
+
+
