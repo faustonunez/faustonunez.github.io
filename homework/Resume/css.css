@@ -51,7 +51,7 @@ header {
 
 section {
 	padding: 0px 0px 0px 350px;
-	width: 700px;
+	width: 50%;
 }
 
 
@@ -68,6 +68,7 @@ li {
 
 a {
 	color: #DF5331;
+	text-decoration: none;
 }
 
 .quote {
@@ -100,6 +101,50 @@ a {
 	color: #999999;
 	margin: 0px;
 	padding: 0px 0px 24px 0px 
+}
+
+
+.selected-link {
+	border-top-style: solid;
+	border-top-width: 3px;
+}
+
+/* Query */
+
+@media (max-width: 500px) {
+
+.left-cover {
+	height: 316px;
+	width: 100%;
+	background-color: #333;
+	position: relative;
+	background-image: url("images/left-cover-photo.png");
+	background-size: 100%;
+	background-position: top;
+	background-repeat: no-repeat;
+	margin-top: 0px;
+	text-align: center;
+
+}
+
+header {
+
+	text-align: left;
+	padding: 400px 0px 48px 0px;
+
+}
+
+section {
+	padding: 0px 12px 0px 12px;
+	width: 90%;
+}
+
+ul {
+	padding-left: 12px;
+}
+
+
+
 }
 
 
