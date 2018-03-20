@@ -111,7 +111,7 @@ a {
 
 /* Query */
 
-@media (max-width: 500px) {
+@media only screen and (max-width: 500px) {
 
 .left-cover {
 	height: 316px;
