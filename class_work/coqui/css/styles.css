@@ -10,3 +10,32 @@ p {
 	margin: 10px;
 	padding: 10px;
 }
+
+h1 {
+	text-align: center;
+}
+
+img {
+	margin: auto 0px;
+}
+
+.links a {
+	text-align: center;
+}
+
+.centered {
+	text-align: center;
+}
+
+.list-centered {
+	margin: 0px auto;
+	width: 200px;
+}
+
+p {
+	text-align: center;
+}
+
+a {
+	display: block;
+}
