@@ -1,0 +1,125 @@
+body, html {
+  height: 100%;
+}
+
+body {
+	margin: 40px;
+}
+
+.container {
+  background: lightgray;
+  border: 1px solid gray;
+}
+
+.flex-column-1 {
+	display: flex;
+	margin-bottom: 20px;
+
+}
+
+
+/*this is two column layout*/
+
+#two-column .item-1 {
+  height: 200px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#two-column .flex-item-2 {
+  height: 500px;
+  width: 60%;
+  margin-right: 20px;
+}
+
+#two-column .flex-item-3 {
+  height: 500px;
+  width: 40%;
+}
+
+#two-column .item-4 {
+  height: 200px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+
+
+
+/*this is threw column layout*/
+
+#three-column .item-1 {
+  height: 200px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#three-column .flex-item-2 {
+  height: 500px;
+  width: 20%;
+  margin-right: 20px;
+}
+
+#three-column .flex-item-3 {
+  height: 500px;
+  width: 60%;
+  margin-right: 20px;
+}
+
+#three-column .flex-item-4 {
+  height: 500px;
+  width: 20%;
+}
+
+#three-column .item-5 {
+  height: 200px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+
+/*this is simple marketing */
+
+
+#simple-marketing .item-1 {
+  height: 200px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#simple-marketing .flex-item-2 {
+  height: 500px;
+  width: 50%;
+  margin-right: 20px;
+}
+
+#simple-marketing .flex-item-3 {
+  height: 500px;
+  width: 50%;
+  /*margin: 0px;*/
+}
+
+#simple-marketing .flex-item-4 {
+  height: 200px;
+  width: 33.33%;
+  margin-right: 20px;
+}
+
+#simple-marketing .flex-item-5 {
+  height: 200px;
+  width: 33.33%;
+  margin-right: 20px;
+}
+
+#simple-marketing .flex-item-6 {
+  height: 200px;
+  width: 33.33%;
+}
+
+#simple-marketing .item-7 {
+  height: 200px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+
