@@ -76,7 +76,7 @@ p {
 .cover {
      height: 400px;
      width: 100%;
-     background-image: url("file:///Users/faustonunez/src/ga/faustonunez.github.io-/homework/startup_matchmaker/images/coworking.jpg");
+     background-image: url("coworking.jpg");
      background-color: #333;
      background-size: cover;
      display: flex;
