@@ -1,0 +1,80 @@
+
+.item-1 {
+  height: 200px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.item-2 {
+}
+
+.item-3 {
+  /*margin: 0px;*/
+}
+
+.item-4 {
+  margin-right: 20px;
+}
+
+.item-5 {
+  margin-right: 20px;
+}
+
+
+.item-2, .item-3, .item-4, .item-5 {
+  margin-right: 20px;
+  width: 17%;
+  height: 40px;
+}
+
+.item-6 {
+  height: 400px;
+  width: 100%;
+}
+
+
+.item-7, .item-8, .item-9 {
+  height: 200px;
+  flex-grow: 1;
+  margin-top: 20px;
+}
+
+.item-7, .item-8 {
+  margin-right: 20px;
+}
+
+
+.item-10 {
+  height: 200px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.navigation {
+  display: flex;
+}
+
+.item-10 {
+  height: 200px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+
+.flex-column-nav-1 {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 30%;
+}
+
+.flex-column-nav-2 {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: flex-end;
+  width: 70%;
+}
+
+

@@ -1,0 +1,182 @@
+/* FONT FAMILY HELPERS :)
+font-family: 'Oswald', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Source Sans Pro', sans-serif; */
+
+body, html {
+	margin: 0px;
+	font-family: "Source Sans Pro";
+}
+
+/*this is the header*/
+
+header {
+	height: 60px;
+	width: 100%;
+	background-color: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 4px solid #FEFF00;
+}
+
+h1 {
+	font-family: "Merriweather", serif;
+	color: #FEFF00;
+	margin-left: 20px;
+
+
+}
+
+.cover .cover-tagline-bar h2 {
+	font-family: "Merriweather";
+	font-weight: 700;
+	font-style: italic;
+	margin: 11px 0px 11px 0px;
+}
+
+h2 {
+	font-family: "Merriweather";
+	font-weight: 700;
+	margin: 11px 0px 11px 0px;
+}
+
+h3 {
+	font-family: "Oswald", serif;
+	font-weight: 700;
+	font-size: 27px;
+	margin: 0px;
+
+}
+
+h4 {
+	margin: 0px;
+}
+
+
+nav {
+	float: right;
+	white-space: nowrap;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	margin-right: 20px;
+}
+
+p {
+	line-height: 25px;
+	margin: 10px 0px 20px 0px
+}
+
+
+/*this is the cover*/
+
+.cover {
+     height: 400px;
+     width: 100%;
+     background-image: url("file:///Users/faustonunez/src/ga/faustonunez.github.io-/homework/startup_matchmaker/images/coworking.jpg");
+     background-color: #333;
+     background-size: cover;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     align-items: flex-end;
+ }
+
+.cover-tagline-bar {
+	font-family: "Merriweather";
+	text-align: center;
+	height: 50px;
+	width: 100%;
+	background-color: #C6C6C6;
+
+}
+
+.taste {
+	color: #999;
+	text-decoration: line-through;
+}
+
+.are {
+	text-decoration: underline #FEFF00;
+}
+
+
+
+.cover-call-to-action {
+	width: 340px;
+	height: 310px;
+	background-color: rgba(255, 255, 255, .8);
+	margin: 20px 20px 0px 0px;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+	padding: 30px;	
+	box-sizing: border-box;
+}
+
+.buttom {
+	height: 42px;
+	width: 280px;
+	background-color: #FEFF00;
+	border-radius: 5px;
+	margin: 0px auto;
+	text-align: center;
+	box-shadow: 0px 3px #CBCB09;
+}
+
+.buttom-gray {
+	height: 42px;
+	width: 100%;
+	background-color: #C6C6C6;
+	border-radius: 5px;
+	margin: 0px auto;
+	text-align: center;
+	box-shadow: 0px 3px #9E9E9E;
+}
+
+.buttom-text {
+	font-family: "Oswald", serif;
+	font-size: 18px;
+	font-weight: 700;
+	display: inline-block;
+	margin: 9px 0px 9px 0px;
+
+}
+
+
+/*this is the value props */
+
+.value-props {
+	width: 100%;
+	height: 233px;
+	background-color: #EEEEEE;
+	display: flex;
+	justify-content: space-between;
+}
+
+.value-prop {
+	flex-grow: 1;
+	height: 201px;
+	/*background-color: #666;*/
+	box-sizing: border-box;
+	margin: 10px 0px;
+	padding: 0px 17px 0px 17px;
+	border-left: 1px solid #C6C6C6;
+}
+
+footer {
+	width: 100%;
+	height: 55px;
+	background-color: black;
+	text-align: left;
+	margin: 0px;
+	padding: 13px 0px 0px 20px;
+	box-sizing: border-box;
+}
+
+footer p {
+	margin: 0px;
+	color: white;
+	margin: 0px;
+}

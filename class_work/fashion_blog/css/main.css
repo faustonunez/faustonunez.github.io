@@ -1,0 +1,165 @@
+/*
+
+Content:
+    720px wide
+    54px of padding
+    solid, left, 6px, border, #dddddd
+
+High-level text properties:
+    #444444
+    "Lato" font
+    1.5 line-height
+
+*/
+
+
+body {
+	color: #44444;
+	font-family: lato, san serif;
+    border-left: solid 6px #dddddd;
+
+
+}
+
+main {
+	width: 720px;
+	padding: 54px;
+
+}
+
+nav {
+    margin: 0px 0px 40px 0px;
+}
+
+footer {
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+
+
+/* "Better Dressed People":
+    black */
+
+h3 {
+    font-size: 24px;
+    font-weight: 500;
+	color: black;
+    margin: 10px 0px 10px 0px;
+}
+
+
+
+/* "Sartre's List" and Links:
+    #dd0000  */
+h1 {
+	font-weight: 500;
+    color: #dd0000 ;
+    font-size: 48px;
+    margin: 0px;
+}
+
+
+h2 {
+    font-size: 32px;
+    font-weight: 500;
+    margin: 0px 0px 10px 0px;
+    padding-left: 0px;
+}
+
+/* "Sartre's List" and Links hover:
+    #aa0000 */
+
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+li {
+    font-size: 18px;
+	display: inline;
+	color: #aa0000;
+    padding: 0px 20px 0px 0px;
+}
+
+#remove-left-padding {
+    padding-left: 0px;
+}
+
+/*
+Navigation links:
+    #dddddd */
+
+
+/* Navigation links hover:
+    black */
+
+a {
+    color: #dddddd;
+    text-decoration: none;
+    border-bottom: 2px solid;
+    padding-left: 0px;
+    margin-left: 0px;
+
+}
+
+a:hover {
+    color: black;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+/*Date:
+    #cccccc */
+
+.date {
+    color: #cccccc ;
+}    
+
+/* Article Title
+    black */
+
+/* Copyright
+    #bbbbbb */
+
+/* Please approximate any line height */
+
+
+img {
+    width: 720px;
+}
+
+
+#footer-nav li {
+    padding-right: 7px;
+    font-size: 14px;
+}
+
+p {
+    margin: 10px 0px 20px 0px;
+}
+
+footer p {
+    color: #bbbbbb;
+}
+
+section p {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+span {
+    color: #dd0000;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: right;
+    display: block;
+     }
+
+
+section {
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 20px;
+    margin-top: 60px;
+
+}

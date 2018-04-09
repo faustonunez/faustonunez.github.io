@@ -1,0 +1,25 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+nav {
+	background-color: black;
+	text-align: center;
+}
+
+a {
+	color: #ccc;
+	padding: 25px;
+	display: inline-block;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ffffff;
+	background-color: #ff7401
+}
+
+li {
+	display: inline-block;
+}

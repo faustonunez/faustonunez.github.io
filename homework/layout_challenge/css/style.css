@@ -1,21 +1,4 @@
-body, html {
-  height: 100%;
-}
 
-body {
-	margin: 40px;
-}
-
-.container {
-  background: lightgray;
-  border: 1px solid gray;
-}
-
-.flex-column-1 {
-	display: flex;
-	margin-bottom: 20px;
-
-}
 
 
 /*this is two column layout*/
@@ -46,7 +29,7 @@ body {
 
 
 
-/*this is threw column layout*/
+/*this is three column layout*/
 
 #three-column .item-1 {
   height: 200px;

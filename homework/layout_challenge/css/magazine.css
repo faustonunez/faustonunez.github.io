@@ -1,0 +1,139 @@
+
+/*This is the header */
+
+.item-1 {
+  height: 200px;
+  width: 100%;
+}
+
+
+.item-2, .item-3, .item-4, .item-5, .item-6 {
+  margin-right: 20px;
+  width: 14%;
+  height: 40px;
+}
+
+
+.flex-column-nav-1 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 30%;
+}
+
+.flex-column-nav-2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 70%;
+}
+
+
+/*This is the main middle */
+
+
+
+
+/*This is the left and right main */
+
+
+.middle-main {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+.left-main {
+	width: 20%;	
+}
+
+
+.right-main {
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+}
+
+.left-main, .right-main {
+	height: 600px;
+}
+
+.rigth-side-margin {
+	margin-right: 20px;
+}
+
+
+/*This is the row top and bottom */
+
+.row-top {
+	height: 20%;
+	margin-bottom: 20px;
+
+}
+
+.row-bottom {
+	height: 80%;
+	display: flex;
+
+}
+
+.row-top, .row-bottom {
+	width: 100%;
+}
+
+/*This is the column left and rigtht */
+
+.column-left {
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+}
+
+
+.column-right {
+	width: 20%;
+	display: flex;
+	flex-direction: column;
+}
+
+
+.column-left, .column-right {
+	height: 100%;
+}
+
+
+/*This is the row innter top and bottom */
+
+.row-innter-top {
+	height: 70%;
+}
+
+.row-inner-bottom {
+	height: 30%;
+	margin-top: 20px;
+	display: flex;
+
+}
+
+
+.row-inner-top, .row-inner-bottom {
+	width: 100%;
+}
+
+
+/*This is the items */
+
+.item-7, .item-8, .item-9 {
+	height: 100%;
+	flex-grow: 1;
+}
+
+
+/*This is the footer */
+
+.footer {
+  height: 200px;
+  width: 100%;
+/*  margin-top: 20px;*/
+}
