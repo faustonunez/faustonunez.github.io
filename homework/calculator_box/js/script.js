@@ -8,7 +8,7 @@ document.querySelector('#a10').onclick = a10Results;
 
 function a10Results() {
 
-	total += 10;
+	total = total + 10;
 
 	document.querySelector('#out').innerHTML = total;
 }
@@ -86,7 +86,7 @@ function n30Results() {
 
 
 
-//Chaning background color 
+//Changing background color 
 
 
 document.querySelector('#red').onclick = redResults;
@@ -106,7 +106,7 @@ function blueResults() {
 
 
 
-//Ressting action 
+//Reseting 
 
 
 document.querySelector('#out').onclick = outResults;
