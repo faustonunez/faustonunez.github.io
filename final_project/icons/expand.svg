@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="97px" height="98px" viewBox="0 0 97 98" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #000000;">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>icons/expand</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons/expand" fill="#FFFFFF" fill-rule="nonzero">
+            <polygon id="Shape" points="84.669 75.831 70.338 61.5 61.5 70.338 75.831 84.669 61.5 99 99 99 99 61.5"></polygon>
+            <polygon id="Shape" points="36.5 70.338 27.662 61.5 13.331 75.831 -1 61.5 -1 99 36.5 99 22.169 84.669"></polygon>
+            <polygon id="Shape" points="36.5 -1 -1 -1 -1 36.5 13.331 22.169 27.527 36.354 36.365 27.516 22.169 13.331"></polygon>
+            <polygon id="Shape" points="99 -1 61.5 -1 75.831 13.331 61.635 27.516 70.473 36.354 84.669 22.169 99 36.5"></polygon>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,128 @@
+
+
+
+
+
+
+@media (min-width: 0px) and (max-width: 768px) {
+   
+		
+		.header-small {
+			height: 450px;
+			width: 100%;
+		}
+
+
+		h1 {
+			font-size: 38px;
+		}
+
+		h3 {
+			font-size: 22px;
+
+		}
+		p {
+			font-size: 16px;
+			line-height: 24px;
+			width: 80%;
+		}
+
+		.hp-cover-metadata {
+			width: 330px;
+		}		
+
+		.thumbnail-metadata {
+			margin-left: 10px;
+    		margin-bottom: 10px;;
+		}
+
+		.nav-links-global {
+			display: none;
+		}
+
+		#nav-burger-icon {
+			display: flex;
+			margin-top: 20px;
+		}
+
+
+		.header-big, .section-portraits, .section-travel, .section-motion  {
+			height: 423px;
+		}
+
+}
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1143px) {  
+  		
+
+		.header-small {
+			height: 500px;
+		}
+
+		.header-big, .section-travel, .section-portraits, .section-motion   {
+			max-height: 700px;
+		}
+
+    }
+
+
+@media (min-width: 1143px) and (max-width: 1940px) {
+   
+
+		.header-small {
+			height: 550px;
+		}
+
+
+		.header-big, .section-travel, .section-portraits, .section-motion    {
+		max-height: 800px;
+
+		}
+		
+
+    }
+
+
+
+
+@media (min-width: 1940px) {
+   
+
+		.header-small {
+			height: 900px;
+		}
+
+
+		h1 {
+			font-size: 78px;
+		}
+
+		h2 {
+			font-size: 48px;
+		}
+
+		p {
+			font-size: 22px;
+			line-height: 30px;
+		}
+
+		.header-big, .section-travel, .section-portraits, .section-motion   {
+		max-height: 1200px;
+
+		}
+
+		video {
+		  width: 140%; 
+		  height: 140%; 
+		}
+
+
+
+    }
+
+

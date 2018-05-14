@@ -1,0 +1,52 @@
+
+@media only screen and (max-width: 600px) {
+   
+
+		h1 {
+			font-size: 48px;
+		}
+
+		.nav-links-global {
+			display: none;
+		}
+
+		#nav-burger-icon {
+			display: flex;
+			margin-top: 20px;
+		}
+
+    }
+
+
+
+@media only screen and (min-width: 1127px) {
+   
+
+		header, header:before {
+			height: 700px;
+			width: 100%;
+		}
+
+    }
+
+
+
+@media only screen and (min-width: 1440px) {
+   
+
+		header, header:before {
+			height: 900px;
+			width: 100%;
+		}
+
+
+
+		.hp-cover-metadata {
+			top: 24%;
+		}
+
+		.hp-cover img {
+			top: 20%;
+		}
+
+    }

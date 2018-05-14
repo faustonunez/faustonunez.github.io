@@ -7,8 +7,17 @@ var total = 0
 $('#entry').submit(addEntry)
 
 function addEntry(event) {
+
+	event.preventDefault()
 	
 	var newEntry = $('#newEntry').val()
+
+
+	// if (newEntry === "") {
+
+	// 	alert("Need to enter value")
+
+	// } else {
 
 	total = total + parseFloat(newEntry) 
 
@@ -18,9 +27,9 @@ function addEntry(event) {
 
 	$('#newEntry').val('')
 
-	event.preventDefault()
+	}
 	
-}
+// }
 
 
 

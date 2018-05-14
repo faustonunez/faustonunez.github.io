@@ -1,0 +1,19 @@
+#myTopNews {
+
+	margin: 40px auto;
+	width: 60%;
+	height: 90%;
+	font-family: helvetica;
+}
+
+
+.topNewsStyling {
+
+	margin: 40px auto;
+	font-family: helvetica;
+}
+
+h1 {
+
+	margin: 0px;
+}

@@ -1,0 +1,26 @@
+
+/* Optional: Makes the sample page fill the window. */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  font-size: 18px;
+  position: fixed;
+  bottom: 80px;
+  left: 80px;
+  width: 300px;
+  height: 60px;
+  background-color: orange;
+  color: white;
+  z-index: 1;
+}
+
+/* Always set the map height explicitly to define the size of the div
+ * element that contains the map. */
+#map {
+  height: 100%;
+  z-index: 1;
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="51px" height="59px" viewBox="0 0 51 59" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>components/logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.0209589041 58.9789286 0.0209589041 0.0677797619 50.8267397 0.0677797619 50.8267397 58.9789286"></polygon>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="components/logo">
+            <g>
+                <g id="Group-3">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <polygon id="Fill-1" fill="#D71818" mask="url(#mask-2)" points="0 14.8560595 25.3501438 0.0677797619 50.763863 14.7457857 50.8267397 44.2117202 25.4762466 59 0.0625273973 44.3216429"></polygon>
+                </g>
+                <path d="M29.4420874,15 C26.9597652,15 24.6181587,15.9521804 22.8500212,17.6807054 C21.3237166,19.1723261 20.3744166,21.0959902 20.1173809,23.1775906 L20,23.1775906 L20,43 L25.5246783,43 L25.5246783,32.2038256 L27.7715316,32.2038256 L30.1986989,26.7199263 L25.5246783,26.7199263 L25.5246783,24.6983417 L25.5434168,24.2287444 C25.6272097,22.1443362 27.3394852,20.5119768 29.4420874,20.5119768 C30.7622684,20.5119768 31.9275916,21.156006 32.6336445,22.1510047 L35,16.8050364 C33.3973271,15.6335 31.4672606,15 29.4420874,15" id="Fill-4" fill="#FFFFFE"></path>
+            </g>
+        </g>
+    </g>
+</svg>
