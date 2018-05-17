@@ -1,8 +1,9 @@
 
 html, body {
     max-width: 100%;
-    overflow-x: hidden;
+/*    overflow-x: hidden;*/
     background-color: #1E1E21;
+
 }
 
 
@@ -24,8 +25,6 @@ html, body {
 
 
 
-
-
 nav {
 	width: 100%;
 	height: 98px;
@@ -37,9 +36,19 @@ nav {
 	justify-content: space-between;
 	position: fixed;
 	z-index: 2;
+	top: 0px;
+	transition: top 1s ease-in-out;
+
 }
 
 
+
+
+.nav-scroll {
+	background: -moz-linear-gradient(top, rgba(0,0,0, 1) 0%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(0,0,0, 1) 0%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(0,0,0, 1) 0%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
 
 
 .hp-cover-metadata {
@@ -64,6 +73,8 @@ h2 {
 	font-size: 44px;
 	color: white;
 	z-index: 1;
+	margin: 0 0 0 0;
+
 }
 
 
@@ -94,6 +105,7 @@ small {
 a {
 	text-decoration: none;
 	font-size: 14px;
+	cursor: pointer;
 }
 
 
@@ -171,6 +183,22 @@ h1, h2, h3, a {
 }*/
 
 
+
+.thumbnail-inner-shadow {
+	position: absolute;
+	height: 40%;
+	width: 100%;
+	bottom: 0px;
+	background: -moz-linear-gradient(bottom, rgba(0,0,0, .8) 0%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(bottom, rgba(0,0,0, .8) 0%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to top, rgba(0,0,0, .8) 0%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#007db9e8',GradientType=0 ); /* IE6-9 */
+	z-index: 1;
+}
+
+
+
+
 .hello {
 	object-fit: cover;
 	object-position: center;
@@ -227,6 +255,8 @@ h1, h2, h3, a {
 	margin-left: 40px;
 	margin-bottom: 40px;
 	z-index: 2;
+	opacity: 0;
+	transition: all 2s
 
 }
 
@@ -234,12 +264,19 @@ h1, h2, h3, a {
 
 
 
-.section-travel {
-	max-height: 900px;
+.section-places {
+	max-height: 1900px;
 	width: 100%;
 	background-color: #333;
 	position: relative;
 	overflow: hidden;
+	display: block;
+}
+
+.section-places img {
+	width: 100%;
+	height: 100%;
+	display: block;
 }
 
 
@@ -281,7 +318,7 @@ h1, h2, h3, a {
 
 
 .section-motion {
-	height: 500px;
+
 	width: 100%;
 	background-color: #333;
 	display: flex;
@@ -338,20 +375,93 @@ footer {
 }
 
 
+/*mobile burger*/
+
+/*this is for the modal*/
+
+.mobile-burger {
+
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .7);
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 200;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1s;
+}
+
+.mobile-burger ul {
+	list-style-type: none;
+	font-family: 'Merriweather', serif;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 44px;
+	-webkit-font-smoothing: antialiased;
+	text-align: center;
+
+}
+
+.blur-background {
+	-webkit-filter: blur(5px);
+	-moz-filter: blur(5px);
+	-o-filter: blur(5px);
+	-ms-filter: blur(5px);
+	filter: blur(5px);
+}
+
+
+.modal-visible {
+	visibility: visible;
+	opacity: 1;
+	transition: opacity 1s;
+}
+
+
+.thumbnail-meta-in-view {
+	opacity: 1
+
+}
+
+
+/*page transition*/ 
+
+body {
+    opacity: 1;
+    transition: 1s opacity;
+}
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+
+html {
+    background-color: black;
+}
+
+
+/*slide caption*/
 
 
 
 
+.slide-caption {
+  position: absolute;
+  color: white;
+}
 
 
+/*nav hide and show*/
 
-
-
-
-
-
-
-
+.nav-up {
+  top: -200px; 
+}
 
 
 

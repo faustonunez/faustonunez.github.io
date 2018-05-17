@@ -1,10 +1,66 @@
 
 
+@media (min-width: 0px) and (max-width: 500px) {
+
+				.header-small {
+			height: 450px;
+			width: 100%;
+		}
+
+
+		h1 {
+			font-size: 38px;
+		}
+
+		h3 {
+			font-size: 22px;
+
+		}
+		p {
+			font-size: 16px;
+			line-height: 24px;
+			width: 80%;
+		}
+
+		.hp-cover-metadata {
+			width: 330px;
+		}		
+
+		.thumbnail-metadata {
+			margin-left: 10px;
+    		margin-bottom: 10px;;
+		}
+
+		.nav-links-global {
+			display: none;
+		}
+
+		#nav-burger-icon {
+			display: flex;
+			margin-top: 20px;
+		}
+
+		.header-big {
+			height: 400px;
+		}
+
+
+		.section-portraits, .section-places  {
+			max-height: 400px;
+		}
+
+
+		.section-motion {
+
+			height: 200px;
+
+		}
+
+}
 
 
 
-
-@media (min-width: 0px) and (max-width: 768px) {
+@media (min-width: 500px) and (max-width: 768px) {
    
 		
 		.header-small {
@@ -45,9 +101,18 @@
 			margin-top: 20px;
 		}
 
+		.header-big {
+			height: 400px;
+		}
 
-		.header-big, .section-portraits, .section-travel, .section-motion  {
-			height: 423px;
+		.section-motion {
+
+			height: 300px;
+
+		}
+
+		.section-portraits, .section-places  {
+			max-height: 400px;
 		}
 
 }
@@ -64,12 +129,18 @@
 			height: 500px;
 		}
 
-		.header-big, .section-travel, .section-portraits, .section-motion   {
+		.header-big, .section-travel, .section-portraits   {
 			max-height: 700px;
 		}
 
-    }
 
+		.section-motion {
+
+			height: 500px;
+
+		}
+
+}
 
 @media (min-width: 1143px) and (max-width: 1940px) {
    
@@ -79,8 +150,15 @@
 		}
 
 
-		.header-big, .section-travel, .section-portraits, .section-motion    {
+		.header-big, .section-travel, .section-portraits    {
 		max-height: 800px;
+
+		}
+
+
+		.section-motion {
+
+			height: 700px;
 
 		}
 		
@@ -111,14 +189,21 @@
 			line-height: 30px;
 		}
 
-		.header-big, .section-travel, .section-portraits, .section-motion   {
+		.header-big, .section-travel, .section-portraits   {
 		max-height: 1200px;
 
 		}
 
+		.section-motion {
+
+			height: 1000px;
+
+		}
+
+
 		video {
-		  width: 140%; 
-		  height: 140%; 
+		  width: 160%; 
+		  height: 160%; 
 		}
 
 

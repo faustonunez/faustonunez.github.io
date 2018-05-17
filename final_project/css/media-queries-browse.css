@@ -8,7 +8,7 @@
    
 		
 		.header-small {
-			height: 450px;
+			height: 300px;
 			width: 100%;
 		}
 
@@ -50,6 +50,14 @@
 			height: 423px;
 		}
 
+		h2 {
+			margin-top: 30px;
+		}
+
+		.browse-thumbnails {
+			width: 100%;
+		}
+
 }
 
 
@@ -61,7 +69,7 @@
   		
 
 		.header-small {
-			height: 500px;
+			height: 400px;
 		}
 
 		.section-travel, .section-portraits, .section-motion   {
@@ -75,13 +83,17 @@
    
 
 		.header-small {
-			height: 550px;
+			height: 400px;
 		}
 
 
 		.section-travel, .section-portraits, .section-motion    {
 		max-height: 800px;
 
+		}
+
+			.browse-thumbnails {
+			width: 33.3%;
 		}
 		
 
@@ -94,7 +106,7 @@
    
 
 		.header-small {
-			height: 750px;
+			height: 500px;
 		}
 
 

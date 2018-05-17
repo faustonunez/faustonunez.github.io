@@ -5,6 +5,9 @@
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/media-queries-hp.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/slick.css">
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css">
 	<link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Archivo+Narrow:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,24 +21,24 @@
 
 
 <header class="header-big">
-<nav>
+<nav class="nav-down">
 	<div class="nav-logo"><img src="icons/fausto-logo.svg"></div>
 	<div class="nav-links-global" >
 		<div><a href="">People</a></div>
-		<div><a href="">Places</a></div>
+		<div><a href="browse.html">Places</a></div>
 		<div><a href="">Motion</a></div>
 		<div><a href="">About</a></div>
-		<div class="primary-button"><a href="">Let's work</a></div>
+		<div class="primary-button"><a href="">Let's chat</a></div>
 	</div>
 	<img id="nav-burger-icon" src="icons/icon-burger-menu.svg">
 </nav>		
 
 		<div class="hp-cover-metadata">
-			<h1>
+			<h1 class="animated fadeInLeft">
 				Moments
 			</h1>
-			<p>
-				Hi! My name is Fausto Nuñez, I'm a product designer and photojournalist living in the capital of the world, also known as NYC. I hope you enjoy my work and hit me up if you want to collaborate.
+			<p class="animated fadeInLeft">
+				Hi! My name is Fausto, I'm a designer and photojournalist living in NYC. I hope you enjoy my work and hit me up if you want to chat or collaborate.
 			</p>
 		</div>
 	
@@ -57,28 +60,51 @@
 				<h3>Studio Portraits</h3>
 				<p>Susana Avila</p>
 			</div>
-			<img class="img-cover section-animation" src="img/studio-portraits.jpg">
+			<a href="">
+				<img class="img-cover section-animation" src="img/studio-portraits.jpg">
+			</a>
 		</div>
 		<div class="outdoors-portraits">
 			<div class="thumbnail-metadata">
 				<h3>Outdoor Portraits</h3>
 				<p>Lauren Leis</p>
 			</div>
-			<img class="img-cover section-animation" src="img/outdoor-portraits.jpg">
+			<div class="thumbnail-inner-shadow"></div>
+			<a href="">
+				<img class="img-cover section-animation" src="img/outdoor-portraits.jpg">
+			</a>
 		</div>
 	</section>
 
-	<section class="section-travel">
-				<div class="travel-arrows">
-					<div><img class="left-arrow" src="icons/arrow-carousel.svg"></div>
-					<div><img class="right-arrow" src="icons/arrow-carousel.svg"></div>
-				</div>
+	<a href="browse.html">
+		  <section class="section-places">
+			<div>
 				<div class="thumbnail-metadata">
-					<h3>Travel</h3>
-					<p>Konstanz, Germany</p>
+					<h3>Germany</h3>
+					<p>Konstanz</p>
 				</div>
-		<img class="img-cover section-animation" src="img/travel-section.png">
-	</section>
+				<img src="img/places-germany-slider.jpg">
+				<div class="thumbnail-inner-shadow"></div>
+			</div>
+		    	<div>
+				<div class="thumbnail-metadata">
+					<h3>Iceland</h3>
+					<p>Reykjavik</p>
+				</div>
+				<img src="img/places-iceland-slider.jpg">
+				<div class="thumbnail-inner-shadow"></div>
+			</div>
+				<div>
+				<div class="thumbnail-metadata">
+					<h3>Mexico</h3>
+					<p>Mexico City</p>
+				</div>
+				<img src="img/places-mexico-slider.jpg">
+				<div class="thumbnail-inner-shadow"></div>
+			</div>
+		  </section>
+  </a>
+	
 	
 	<section class="section-motion">
 		<div class="thumbnail-metadata">
@@ -88,11 +114,24 @@
 		<video autoplay muted loop id="myVideo">
   			<source src="img/Wonder.mp4" type="video/mp4">
 		</video>
+		<div class="thumbnail-inner-shadow"></div>
 		<!-- <div id="motion-bk" class="section-animation bk" ></div> -->		
 	</section>
-
-
 </main>
+
+
+	<!-- this is the mobile modal -->
+	<div id="modal">
+		<div class="mobile-burger">
+			<ul>
+				<li>People</li>
+				<li>Places</li>
+				<li>Motion</li>
+				<li>About</li>
+				<li>Let's Work</li>
+			</ul>
+		</div>
+	</div>
 
 
 <!-- These are the styles for the footer -->
@@ -109,8 +148,28 @@
 	</div>
 </footer>
 
-<script src="js/jquery-1.10.2.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
 <script src="js/main.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="js/slick.min.js"></script>
+
+
+<script type="text/javascript">
+    $(document).on('ready', function() {
+      $(".section-places").slick({
+        lazyLoad: 'ondemand', // ondemand progressive anticipated
+        autoplay: true,
+  		autoplaySpeed: 2000,
+  		fade: true,
+  		cssEase: 'linear',
+  		arrows: false,
+  		pauseOnHover: false,
+      });
+    });
+</script>
+
 
 </body>
 </html>

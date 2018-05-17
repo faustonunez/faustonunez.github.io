@@ -13,7 +13,7 @@
 }
 
 .hp-cover-small p {
-	width: 70%;
+	width: 60%;
 	text-align: center;
 }
 
@@ -38,17 +38,6 @@
 	overflow: hidden;
 }
 
-.thumbnail-inner-shadow {
-	position: absolute;
-	height: 40%;
-	width: 100%;
-	bottom: 0px;
-	background: -moz-linear-gradient(bottom, rgba(0,0,0, .3) 0%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(bottom, rgba(0,0,0, .3) 0%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to top, rgba(0,0,0, .3) 0%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#007db9e8',GradientType=0 ); /* IE6-9 */
-	z-index: 1;
-}
 
 
 .img-browse {
@@ -61,5 +50,39 @@
 .img-browse:hover {
 	transform: scale(1.1);
 	opacity: 1;
+}
+
+
+/*gallery images*/
+
+
+.photo-horizontal {   	
+	max-height: 1200px;
+	box-sizing: content-box;
+}
+
+.photo-vertical {   	
+	max-height: 1800px;
+	box-sizing: border-box;
+/*	margin: 2px;*/
+}
+
+.img-gallery {
+	height: 100%;
+	width: 100%;
+}
+
+
+
+.photo-100 {
+	width: 100%;
+}
+
+.photo-50 {
+	width: 50%;
+}
+
+.photo-33 {
+	width: 33.3%;
 }
 
