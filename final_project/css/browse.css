@@ -1,13 +1,26 @@
+
+.portraits-select {
+	width: 100%;
+	background-color: #333;
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	overflow: hidden;
+}
+
+
+
+
 .header-small {
-	height: 360px;
+	height: 276px;
 	width: 100%;
 }
 
 .hp-cover-small {
 	width: 100%;
 	height: 100%;
-	display: flex;
-	flex-direction: column;
+	text-align: center;
+	padding-top: 138px;
 	justify-content: center;
 	align-items: center;
 }
@@ -15,11 +28,22 @@
 .hp-cover-small p {
 	width: 60%;
 	text-align: center;
+	display: inline-block;
 }
 
 
+.browse-gallery {
+	width: 100%;
+	display: flex;
+	position: relative;
+	overflow: hidden;
+	flex-wrap: wrap;
+	padding: 0px 0px;
+	box-sizing: border-box;
+}
 
-.section-browse-places {
+
+.browse-places {
 	width: 100%;
 	display: flex;
 	position: relative;
@@ -38,6 +62,13 @@
 	overflow: hidden;
 }
 
+.gallery-next-previous {
+	background-size: cover;    	
+	width: 50%;
+	max-height: 1000px;
+	position: relative;
+	overflow: hidden;
+}
 
 
 .img-browse {
@@ -84,5 +115,45 @@
 
 .photo-33 {
 	width: 33.3%;
+}
+
+
+.gallery-quotes {
+	margin: 40px 0;
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+}
+
+.gallery-quotes h3 {
+
+	width: 70%;
+	display: inline-block;
+
+}
+
+blockquote h3 {
+	line-height: 46px;  
+}
+
+	
+
+blockquote h4 {
+	color: rgba(256,256,256, .2);  
+}
+
+blockquote h3:before { 
+    content: open-quote;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    font-size:50px;
+    color: rgba(256,256,256, .2);
+} 
+blockquote h3:after { 
+    content: close-quote;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    font-size:50px;
+    color: rgba(256,256,256, .2);  
 }
 

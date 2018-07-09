@@ -20,18 +20,29 @@
 
 
 
-<header>
+<header class="header-big">
 <nav class="nav-down">
 	<div class="nav-logo"><img src="icons/fausto-logo.svg"></div>
 	<div class="nav-links-global" >
-				<div><a href="browse.html">Places</a></div>
-				<div><a href="portraits.html">People</a></div>
-				<div><a href="motion.html">Film</a></div>
-				<div><a href="motion.html">Aerial</a></div>
-				<div class="primary-button"><a href="about-me.html">About Me</a></div>
+		<div><a href="portraits.html">People</a></div>
+		<div><a href="browse.html">Places</a></div>
+		<div><a href="motion.html">Film</a></div>
+		<div><a href="about-me.html">About</a></div>
+		<div class="primary-button"><a href="contact-me.html">Let's chat</a></div>
 	</div>
 	<img id="nav-burger-icon" src="icons/icon-burger-menu.svg">
 </nav>		
+
+		<div class="hp-cover-metadata">
+			<h1 class="animated fadeInLeft">
+				Moments
+			</h1>
+			<p class="animated fadeInLeft">
+				Hi! My name is Fausto, I'm a designer and photojournalist living in NYC. I hope you enjoy my work and hit me up if you want to chat or collaborate.
+			</p>
+		</div>
+	
+		<img class="hello img-opacity section-animation" src="img/homepage-cover.jpg">
 </header>
 
 
@@ -43,41 +54,11 @@
 
 <main>
 
-<div class="hp-tiles">
-	<section class="places-film">
-		<section class="hp-travel">
-				<div class="hp-cover-metadata">
-					<h1 class="animated fadeInLeft">
-						Places
-					</h1>
-					<p class="animated fadeInLeft">
-						Hi! My name is Fausto, I'm a designer and photojournalist living in NYC. I hope you enjoy my work and hit me up if you want to chat or collaborate.
-					</p>
-				</div>
-				<a href="browse.html">
-					<img class="hello img-opacity img-cover section-animation" src="img/homepage-cover.jpg">
-				</a>
-
-		 </section>
-		 <section class="section-motion">
-				<div class="thumbnail-metadata">
-					<h3>Film</h3>
-				</div>
-				<video autoplay muted loop id="myVideo">
-		  			<source src="img/Wonder.mp4" type="video/mp4">
-				</video>
-				<div class="thumbnail-inner-shadow"></div>
-		</section>
-
-	</section>
-
-
-
-
 	<section class="section-portraits">
 		<div class="studio-portraits">
 			<div class="thumbnail-metadata">
 				<h3>Studio Portraits</h3>
+				<p>Susana Avila</p>
 			</div>
 			<a href="">
 				<img class="img-cover section-animation" src="img/studio-portraits.jpg">
@@ -86,38 +67,16 @@
 		<div class="outdoors-portraits">
 			<div class="thumbnail-metadata">
 				<h3>Outdoor Portraits</h3>
+				<p>Lauren Leis</p>
 			</div>
 			<div class="thumbnail-inner-shadow"></div>
 			<a href="">
 				<img class="img-cover section-animation" src="img/outdoor-portraits.jpg">
 			</a>
 		</div>
-		  <section class="section-places">
-			<div>
-				<div class="thumbnail-metadata">
-					<h3>Aerial</h3>
-				</div>
-				<img src="img/places-germany-slider.jpg">
-				<div class="thumbnail-inner-shadow"></div>
-			</div>
-		    <div>
-				<div class="thumbnail-metadata">
-					<h3>Aerial</h3>
-				</div>
-				<img src="img/places-iceland-slider.jpg">
-				<div class="thumbnail-inner-shadow"></div>
-			</div>
-			<div>
-				<div class="thumbnail-metadata">
-					<h3>Aerial</h3>
-				</div>
-				<img src="img/places-mexico-slider.jpg">
-				<div class="thumbnail-inner-shadow"></div>
-			</div>
-		  </section>
 	</section>
-</div>
-<!-- 	<a href="browse.html">
+
+	<a href="browse.html">
 		  <section class="section-places">
 			<div>
 				<div class="thumbnail-metadata">
@@ -145,22 +104,21 @@
 			</div>
 		  </section>
   </a>
-  <div class="push"></div> -->
+	
+	
+	<section class="section-motion">
+		<div class="thumbnail-metadata">
+			<h3>Motion</h3>
+			<p>Film Real 2018</p>
+		</div>
+		<video autoplay muted loop id="myVideo">
+  			<source src="img/Wonder.mp4" type="video/mp4">
+		</video>
+		<div class="thumbnail-inner-shadow"></div>
+		<!-- <div id="motion-bk" class="section-animation bk" ></div> -->		
+	</section>
+	 <div class="push"></div>
 </main>
-
-
-<!-- These are the styles for the footer -->
-<!-- 
-<footer>
-	<div id="footer-social-media-icons">
-		<img src="icons/icon_instagram.svg">
-		<img src="icons/icon-vimeo.svg">
-		<img src="icons/icon_linkedin.svg">
-	</div>
-	<div>
-		<small>Fausto Nuñez Copyright © 2018 .</small>
-	</div>
-</footer> -->
 
 
 	<!-- this is the mobile modal -->
@@ -177,6 +135,17 @@
 	</div>
 
 <!-- These are the styles for the footer -->
+
+<footer>
+	<div id="footer-social-media-icons">
+		<img src="icons/icon_instagram.svg">
+		<img src="icons/icon-vimeo.svg">
+		<img src="icons/icon_linkedin.svg">
+	</div>
+	<div>
+		<small>Fausto Nuñez Copyright © 2018 .</small>
+	</div>
+</footer>
 
 <script src="https://code.jquery.com/jquery-3.3.1.js"
   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="

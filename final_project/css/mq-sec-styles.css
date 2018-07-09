@@ -1,4 +1,3 @@
-
 @media (min-width: 0px) and (max-width: 500px) {
    
 		
@@ -24,6 +23,7 @@
 			margin-right: 0px;
 			padding: 0px 40px;
 			width: 100%;
+			box-sizing: border-box;
 		}
 
 		h2 {
@@ -34,28 +34,51 @@
 
 
 
-
-@media (min-width: 500px) and (max-width: 768px) {
+@media (min-width: 0px) and (max-width: 768px) {
    
 		
 		.header-small {
-			height: 276px;
+			height: 250px;
+			width: 100%;
+		}
+
+		.header-medium {
+			height: 300px;
 			width: 100%;
 		}
 
 
 		h2 {
 			margin-top: 30px;
-			font-size: 36px;
 		}
 
 		.browse-thumbnails {
 			width: 100%;
 		}
 
-		.about-description {
-			margin-top: 120px;	
+		.hp-cover-small p {
+    		width: 80%;
 		}
+
+		.hp-cover-small {
+    		padding-top: 90px;
+		}
+
+		.gallery-quotes h3 {
+
+			width: 90%;
+			display: inline-block;
+
+		}
+
+		.gallery-quotes {
+			margin: 40px 0;
+			width: 100%;
+			text-align: center;
+			display: inline-block;
+		}
+
+
 
 }
 
@@ -71,8 +94,14 @@
 			height: 276px;
 		}
 
+		.header-medium {
+			height: 350px;
+			width: 100%;
+		}
+
+
 		.section-travel, .section-portraits, .section-motion   {
-			max-height: 400px;
+			max-height: 700px;
 		}
 
     }
@@ -80,13 +109,15 @@
 
 @media (min-width: 1143px) and (max-width: 1940px) {
    
-		body {
-		 	background-color: blue;
-		}
 
 		.header-small {
 			height: 276px;
 		}
+
+		.header-medium {
+			height: 350px;
+			width: 100%;
+		}		
 
 
 		.section-travel, .section-portraits, .section-motion    {
@@ -108,7 +139,12 @@
    
 
 		.header-small {
-			height: 276px;
+			height: 300px;
+		}
+
+		.header-medium {
+			height: 350px;
+			width: 100%;
 		}
 
 
